@@ -1139,14 +1139,14 @@
       }
     }
   };
-  /* $(window).on('scroll', function() {
+  $(window).on('scroll', function() {
     var scrollTop = $(window).scrollTop();
-  
-    if (scrollTop < 20) {
-      $('.navbar').slideUp();
+    var navbar = $('.navbar');
+    
+    if (scrollTop < 960) {
+      navbar.addClass('navbar-hidden');
     } else {
-      $('.navbar').slideDown();
+      navbar.removeClass('navbar-hidden');
     }
-  }); */
-  
+  });
 })(jQuery);

@@ -11,7 +11,16 @@ body
 	line-height: 24px;
     position: relative;
   }
-  
+/* body.navbar-visible {
+  padding-top: 65px;
+} */
+.navbar {
+  transition: transform 0.3s ease;
+}
+
+.navbar-hidden {
+  transform: translateY(-100%);
+}
 .blue {
 	color: #06C;
 }
@@ -158,7 +167,7 @@ h1 { margin: 0; }
 }
 .slider-caption {
   color:white;
-  margin: 0;
+  margin: 0 !important;
   position: absolute;
   top: 0;
   left: 0;
