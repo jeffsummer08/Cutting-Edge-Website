@@ -1143,7 +1143,7 @@
     var scrollTop = $(window).scrollTop();
     var navbar = $('.navbar');
     
-    if (scrollTop < 960) {
+    if (scrollTop < 800) {
       navbar.addClass('navbar-hidden');
     } else {
       navbar.removeClass('navbar-hidden');
